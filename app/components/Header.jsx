@@ -23,24 +23,28 @@ export default function Header() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <a>About Me</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>Projects</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Skills and Technologies</a>
+              </li>
+              <li>
+                <a href="">Experience</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li>
+                <a href="">Resume</a>
               </li>
             </ul>
           </div>
@@ -49,29 +53,35 @@ export default function Header() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <a>About Me</a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Projects</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Skills and Technologies</a>
+            </li>
+            <li>
+              <a href="">Experience</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+            <li>
+              <a href="">Resume</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
-          <input type="checkbox" value="corporate" className="toggle theme-controller" />
+          <input
+            type="checkbox"
+            value="corporate"
+            className="toggle theme-controller"
+          />
         </div>
       </div>
     </header>
