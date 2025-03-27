@@ -37,4 +37,7 @@ p{
   margin-bottom: 20px;
 }
 
+.gradient-exp{
+  background: linear-gradient(180deg, var(--background) 85%, transparent 100%);
+}
 

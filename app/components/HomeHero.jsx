@@ -5,9 +5,9 @@ import Experience from "./Experience";
 
 export default function HomeHero() {
   return (
-    <div className="flex pl-10 pr-10 justify-items-start gap-28 pt-20 pb-20">
+    <div className="flex pl-10 pr-10 justify-items-start gap-28 pb-20">
       <div className="w-1/2">
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col justify-between sticky top-0 pt-20">
           <div>
             <h1 className="text-7xl font-bold">Jose A. Ortiz</h1>
             <h2 className="text-4xl mt-3">Front End Developer</h2>
@@ -30,8 +30,8 @@ export default function HomeHero() {
           <Contact />
         </div>
       </div>
-      <div className="w-1/2 relative mb-5">
-        <div className="sticky t-0">
+      <div className="w-1/2 mb-5">
+        <div className="sticky top-0 z-10 pt-20 gradient-exp">
           <nav className="pb-5">
             <ul className="flex gap-4 justify-center">
               <li>
@@ -52,7 +52,7 @@ export default function HomeHero() {
             </ul>
           </nav>
         </div>
-        <div className="max-h-[75vh] overflow-auto scroll-smooth">
+        <div className="scroll-smooth">
           <div className="">
             <Experience />
             <Projects />
