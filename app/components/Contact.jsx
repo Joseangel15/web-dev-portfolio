@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="mb-10">
       <h2 className="text-1xl font-bold mb-3.5">Send me a hola!</h2>
       <ul className="flex gap-4" aria-label="Social Media">
         <li className="hover:animate-pulse">

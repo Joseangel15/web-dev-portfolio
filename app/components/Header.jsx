@@ -41,9 +41,6 @@ export default function Header() {
                 <a href="">Blog</a>
               </li>
               <li>
-                <a href="">Contact</a>
-              </li>
-              <li>
                 <a href="">Resume</a>
               </li>
             </ul>
@@ -66,9 +63,6 @@ export default function Header() {
             </li>
             <li>
               <a href="">Blog</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
             </li>
             <li>
               <a href="">Resume</a>

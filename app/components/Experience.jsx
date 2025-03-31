@@ -40,7 +40,7 @@ export default function Experience() {
             <p>{exp.description}</p>
             <div className="flex gap-2 mt-2 flex-wrap">
               {exp.technologies.map((tech) => (
-                <span key={tech} className="p-2 px-3 bg-primary text-primary-content rounded font-medium">
+                <span key={tech} className="p-2 px-3 bg-secondary text-primary-content rounded font-medium">
                   {tech}
                 </span>
               ))}

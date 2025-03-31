@@ -41,3 +41,8 @@ p{
   background: linear-gradient(180deg, var(--background) 85%, transparent 100%);
 }
 
+.anchor-behavior section {
+  scroll-margin-top: 140px;
+}
+
+
