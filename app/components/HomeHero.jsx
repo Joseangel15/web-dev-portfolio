@@ -11,7 +11,7 @@ export default function HomeHero() {
         <div className="flex flex-col justify-between sticky top-0 pt-20 h-svh">
           <div>
             <h1 className="text-7xl font-bold">Jose A. Ortiz</h1>
-            <h2 className="text-4xl mt-3">Front End Developer</h2>
+            <h2 className="text-4xl mt-3 mb-10">Front End Developer</h2>
             <p className="text-2xl mt-6">
               I Turn Ideas into Interactive Web Experiences.
             </p>
@@ -33,8 +33,7 @@ export default function HomeHero() {
               Outside of coding, I’m all about exploration and creativity.
               Whether it’s hitting the road for a new adventure, capturing the
               world through photography, or diving into video production, I’m
-              always looking for fresh perspectives and new experiences. Let’s
-              build something amazing together!
+              always looking for fresh perspectives and new experiences.
             </p>
           </div>
           <Contact />

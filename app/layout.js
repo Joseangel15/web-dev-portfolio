@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="night">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../public/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="../public/favicon/site.webmanifest" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${urbanist.variable} antialiased flex justify-between flex-col min-h-screen`}
       >
