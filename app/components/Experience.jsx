@@ -8,7 +8,7 @@ export default function Experience() {
       company: "Disruptive Advertising",
       companyDescription:
         "Disruptive Advertising is a leading digital marketing agency specializing in PPC management, social media advertising, and conversion rate optimization.",
-      date: "2019 - Present",
+      date: "2019 - 2025",
       technologies: [
         "JavaScript",
         "HTML & CSS",
@@ -80,7 +80,7 @@ export default function Experience() {
               {exp.technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="p-2 px-3 bg-secondary text-primary-content rounded font-medium"
+                  className="p-2 px-3 bg-secondary text-primary-content rounded color-accent"
                 >
                   {tech}
                 </span>

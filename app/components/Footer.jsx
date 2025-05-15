@@ -9,12 +9,12 @@ export default function Footer() {
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-      <Link href="https://www.linkedin.com/in/jaoortiz/">
-            <FontAwesomeIcon icon={faLinkedin} size="2xl" className="h-6 w-6" />
-          </Link>
-          <Link href="https://www.linkedin.com/in/jaoortiz/">
-            <FontAwesomeIcon icon={faGithub} size="2xl" className="h-6 w-6" />
-          </Link>
+        <Link href="https://www.linkedin.com/in/jaoortiz/">
+          <FontAwesomeIcon icon={faLinkedin} size="2xl" className="h-6 w-6" />
+        </Link>
+        <Link href="https://www.linkedin.com/in/jaoortiz/">
+          <FontAwesomeIcon icon={faGithub} size="2xl" className="h-6 w-6" />
+        </Link>
       </nav>
     </footer>
   );
