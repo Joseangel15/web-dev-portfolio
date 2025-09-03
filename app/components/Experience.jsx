@@ -6,6 +6,8 @@ export default function Experience() {
       id: 1,
       title: "Web Developer",
       company: "Disruptive Advertising",
+      companyLink: "https://disruptiveadvertising.com/",
+      linkColor: "#da2128",
       companyDescription:
         "Disruptive Advertising is a leading digital marketing agency specializing in PPC management, social media advertising, and conversion rate optimization.",
       date: "2019 - 2025",
@@ -18,6 +20,13 @@ export default function Experience() {
         "Conversion Rate Optimization (CRO)",
         "Google Analytics",
         "Google Tag Manager",
+        "Git",
+        "Github",
+        "Figma",
+        "Adobe XD",
+        "SEO",
+        "Next.js",
+        "Node.js"
       ],
       responsibilities: [
         "Web development (HTML, CSS, JavaScript, React, Python).",
@@ -34,6 +43,8 @@ export default function Experience() {
       id: 2,
       title: " Data Specialist and HR Representative",
       company: "Brambles",
+      companyLink: "https://www.brambles.com/",
+      linkColor: "#004b87",
       companyDescription:
         "Brambles is a global provider of logistics solutions, connecting the world’s supply chains through its operations, people and technology.",
       date: "2016 - 2019",
@@ -56,13 +67,14 @@ export default function Experience() {
   return (
     <section id="experience" className="mt-5 mb-10">
       {experience.map((exp) => (
-        <div className="card card-border bg-base-100 w-full mb-5">
-          <div key={exp.id} className="card-body">
+        <div key={exp.id} className="card card-border bg-base-100 w-full mb-5">
+          <div className="card-body">
             <h2 className="card-title text-2xl">
               {exp.title} -{" "}
               <Link
-                href="https://disruptiveadvertising.com/"
-                className="hover:text-[#da2128] underline hover:no-underline"
+                href={exp.companyLink}
+                target="_blank"
+                className={`no-underline hover:underline hover:text-primary`}
               >
                 {exp.company}
               </Link>
@@ -77,9 +89,9 @@ export default function Experience() {
               ))}
             </ul>
             <div className="flex gap-2 mt-2 flex-wrap">
-              {exp.technologies.map((tech) => (
+              {exp.technologies.map((tech, index) => (
                 <span
-                  key={tech}
+                  key={index}
                   className="p-2 px-3 bg-secondary text-primary-content rounded color-accent"
                 >
                   {tech}

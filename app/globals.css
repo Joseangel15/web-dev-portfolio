@@ -75,7 +75,7 @@ body {
   position: fixed;
   width: 200%;
   height: 12em;
-  animation: wave 10s -3s linear infinite;
+  animation: wave 20s -3s linear infinite;
   transform: translate3d(0, 0, 0);
   opacity: 0.8;
   bottom: 0;
@@ -85,7 +85,7 @@ body {
 
 .wave:nth-of-type(2) {
   bottom: -1.25em;
-  animation: wave 18s linear reverse infinite;
+  animation: wave 20s linear reverse infinite;
   opacity: 0.8;
 }
 
