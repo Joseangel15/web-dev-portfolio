@@ -26,16 +26,18 @@ export default function Experience() {
         "Adobe XD",
         "SEO",
         "Next.js",
-        "Node.js"
+        "Node.js",
+        "Python"
       ],
       responsibilities: [
-        "Web development (HTML, CSS, JavaScript, React, Python).",
-        "Implemented custom website changes and created landing pages for multiple clients.",
-        "Google Analytics, Facebook, and Google Ads tracking changes and implementations.",
-        "Skilled in Front-end Web Development with a strong focus on Conversion Rate Optimization.",
-        "Execute dev-focused in-platform strategy, leading to measurable results.",
-        "Conduct UX, development, and speed audits to pinpoint areas of improvement on client websites.",
-        "Troubleshoot and solve technical issues on client websites, ensuring optimal performance and user experience.",
+        "Engineered dynamic and responsive user interfaces using React, HTML5, and CSS (leveraging Tailwind CSS for rapid development), consistently delivering visually appealing and highly performant web applications across diverse devices.",
+        "Developed and integrated RESTful APIs with Node.js and PostgreSQL, demonstrating full-stack proficiency and seamless data flow between front-end and back-end systems.",
+        "Implemented A/B testing methodologies and applied SEO best practices to enhance user engagement and improve search engine rankings, resulting in quantifiable improvements in conversion rates and organic traffic.",
+        "Proficiently managed codebase using Git version control, ensuring collaborative development, efficient code reviews, and streamlined deployment workflows.",
+        "Executed dev-focused in-platform strategy, leading to measurable results.",
+        "Configured and deployed Google Analytics and Google Ads tracking via Google Tag Manager (GTM), meticulously collecting granular user behavior data to inform design optimizations, track campaign performance, and drive data-driven product enhancements.",
+        "Troubleshot and solved technical issues on client websites, ensuring optimal performance and user experience.",
+        "I implemented highly responsive web applications from concept to deployment, ensuring optimal user experiences and consistent visual integrity across a wide range of devices and screen sizes using modern CSS techniques and media queries.",
         "Experienced in working with multiple e-commerce and lead generation platforms, including WordPress, Shopify, BigCommerce, and others.",
       ],
     },
@@ -66,10 +68,11 @@ export default function Experience() {
 
   return (
     <section id="experience" className="mt-5 mb-10">
+      <h2 className="card-title text-2xl card-body items-start">Professional Experience</h2>
       {experience.map((exp) => (
         <div key={exp.id} className="card card-border bg-base-100 w-full mb-5">
           <div className="card-body">
-            <h2 className="card-title text-2xl">
+            <h3 className="card-title text-1xl">
               {exp.title} -{" "}
               <Link
                 href={exp.companyLink}
@@ -78,7 +81,7 @@ export default function Experience() {
               >
                 {exp.company}
               </Link>
-            </h2>
+            </h3>
             <p className="mb-1.5! text-base">{exp.companyDescription}</p>
             <p className="text-sm">{exp.date}</p>
             <ul className="mb-3 text-base">
@@ -92,7 +95,7 @@ export default function Experience() {
               {exp.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="p-2 px-3 bg-secondary text-primary-content rounded color-accent"
+                  className="p-2 px-3 bg-secondary text-primary-content rounded color-accent font-bold tracking-wide"
                 >
                   {tech}
                 </span>

@@ -6,20 +6,11 @@ export default function Summary() {
       <div className="card-body pb-0 ">
         <h2 className="card-title text-2xl">My Story So Far</h2>
         <p>
-          Hey there. I am a <strong className="text-primary">{title}</strong> with 5+ years of specialized
-          experience in marketing-driven web development. Proven track record
-          optimizing and <strong className="text-primary">SEO</strong> performance, executing successful <strong className="text-primary">A/B</strong> testing
-          campaigns, and implementing advanced <strong className="text-primary">analytics</strong> solutions across 100+
-          client websites. Expert in landing page development and
-          conversion-focused design. Combines technical expertise with a growth
-          mindset, consistently delivering measurable results while adapting to
-          evolving technologies and client needs.
+          As a <strong className="text-primary">{title}</strong> I specialize in leveraging <strong className="text-primary">React</strong> to build dynamic, high-performance web experiences that drive business growth. With 5+ years of experience, my expertise lies in combining technical proficiency with a growth-focused mindset to create visually compelling user interfaces. I excel at optimizing web applications for <strong className="text-primary">SEO</strong>, implementing <strong className="text-primary">A/B testing</strong> campaigns, and integrating advanced <strong className="text-primary">analytics solutions</strong> to deliver measurable results. I am passionate about tackling complex challenges and consistently evolving my skills in React and the broader web development ecosystem to meet the demands of a dynamic digital landscape."
         </p>
         <p>
-          I've got experience using tools like <strong className="text-primary">React</strong>, <strong className="text-primary">JavaScript</strong>, <strong className="text-primary">CSS</strong>, <strong className="text-primary">HTML</strong>, and
-          <strong className="text-primary"> PostgreSQL</strong>, and I love the challenge of creating something new with
-          each project. I also love the opportunity to learn and grow as a
-          developer while tackling complex problems.
+          I build high-performance applications using a modern tech stack including <strong className="text-primary">React</strong>, <strong className="text-primary">JavaScript</strong>, <strong className="text-primary">CSS</strong>, <strong className="text-primary">HTML</strong>, and
+          <strong className="text-primary"> PostgreSQL</strong> and others. I thrive on the challenge of creating new solutions and am passionate about continuous learning and growth as I tackle complex problems.
         </p>
         <p>
           When I'm not coding, I love hitting the road for some exploring and

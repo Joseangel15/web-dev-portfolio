@@ -3,6 +3,12 @@
   themes: corporate --default, night --prefersdark;
 };
 
+@theme {
+  --breakpoint-xs: 630px;
+  --breakpoint-2xl: 1100px;
+  --breakpoint-3xl: 120rem;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -116,3 +122,4 @@ body {
       transform: translateX(1);
   }
 }
+
