@@ -12,7 +12,7 @@ export default function HomeHero() {
 
   const menuOptions = [
     { name: "Experience", href: "#experience" },
-    { name: "Skills", href: "#skills" },
+    // { name: "Skills", href: "#skills" },
     { name: "Education", href: "#education" },
     { name: "Full Resume", href: "#resume-sect" },
     { name: "Home", href: "#top" },
