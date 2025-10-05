@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Projects from "./Projects";
+import Skills from "./Skills";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Resume from "./Resume";
@@ -12,7 +12,7 @@ export default function HomeHero() {
 
   const menuOptions = [
     { name: "Experience", href: "#experience" },
-    { name: "Projects", href: "#projects" },
+    { name: "Skills", href: "#skills" },
     { name: "Education", href: "#education" },
     { name: "Full Resume", href: "#resume-sect" },
     { name: "Home", href: "#top" },
@@ -55,7 +55,7 @@ export default function HomeHero() {
           <div className="anchor-behavior">
             <Summary />
             <Experience />
-            <Projects />
+            {/* <Skills /> */}
             <Education />
             <Resume />
             <section className="text-center mt-10 mb-10">
